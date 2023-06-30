@@ -1,0 +1,61 @@
+.header{
+  background-color: rgb(102, 240, 194);
+  margin: 0%;
+  padding: 3%
+}
+
+.topBox{
+  border: 2px dotted black;
+  margin-top: 0px;
+  padding: 110px;
+}
+
+.purpleBox{
+background-color: purple;
+border: 5px solid;
+border-color: red;
+border-width: 3px;
+height: 50px;
+width: 100px;
+padding: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+ float: left;
+}
+
+.blueBox{
+  background-color: blue;
+  border: solid 1px black;
+  border-color: 1px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 3px 3px 3px black;
+  margin-bottom: 10px;
+ margin-left: 20px;
+ float: left;
+}
+
+.pinkBox{
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.middleBox{
+  border: 2px dotted black;
+  margin-bottom: 10px;
+  padding: 10px;
+
+ } 
+
+}
+
+.bottomBox{
+  margin: 10px;
+  padding 10px;
+
+}
