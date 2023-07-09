@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "git is a control system.";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+ var gitHubDefinition = "gitHub is a website used to store code.";
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+ var init = {
+    description: "Initialize a new git repository.",
+    code: "git init"
+};
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+ var clone = {
+    description: "Clone a git repository.",
+    code: "git clone"
+};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+ var status = {
+    description: "Check the status of a git repository.",
+    code: "git status"
+};
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+ let add = {
+    description: "Add files to a git repository.",
+    code: "git add"
+};
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+    var commit = {
+        description: "Commit changes to a git repository.",
+        code: "git commit"
+    };
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+ var addRemote = {
+    description: "Add a remote location to your git repository.",
+    code: "git remote add origin"
+};
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+ var push = {
+    description: "Push changes to a git repository.",
+    code: "git push"
+};
